@@ -34,7 +34,8 @@ sudo pacman -Syu --noconfirm
 echo "¡Listo! El repositorio de Chaotic-AUR ha sido configurado correctamente."
 
 echo "Instalando dependencias necesarias"
-sudo pacman -S --noconfirm git nano nvim base-devel pipewire alsa-utils kitty fastfetch starship curl flatpak gnome-disk-utility networkmanager bluez
+sudo pacman -S --noconfirm git nano nvim base-devel pipewire alsa-utils kitty fastfetch \
+ starship curl flatpak gnome-disk-utility networkmanager bluez file-roller fuse
 
 echo "Instalando Software de Internet"
 sudo pacman -S --noconfirm brave-bin telegram-dektop discord localsend
@@ -44,5 +45,12 @@ sudo pacman -S --noconfirm mpv loupe kdenlive decibels gpu-screen-recorder flame
 
 echo "Instalando Software de Desarrollo"
 sudo pacman -S --noconfirm vscodium python python-pip tk
+
+echo "Instalando Software de Oficina"
+sudo pacman -S --noconfirm onlyoffice 
+
+echo "Instalando codecs multimedia"
+sudo pacman -S --noconfirm gstreamer gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav \
+ ffmpeg lame libmad libdvdread libdvdnav x264 x265
 
 echo "Ya se Instalo todo el Software"
