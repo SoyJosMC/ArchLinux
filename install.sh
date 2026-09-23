@@ -13,3 +13,4 @@ sudo ./Software.sh
 cp -r ./icons ~/.icons
 cp -r ./themes ~/.themes
 sudo cp -r ./backgrounds ~/.backgrounds
+cp -r ./themes/TokyoNight/plank ~/.local/share/plank/themes/TokyoNight
