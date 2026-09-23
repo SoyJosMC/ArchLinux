@@ -38,7 +38,7 @@ sudo pacman -S --noconfirm git nano nvim base-devel pipewire alsa-utils kitty fa
  starship curl flatpak gnome-disk-utility networkmanager bluez file-roller fuse
 
 echo "Instalando Software de Internet"
-sudo pacman -S --noconfirm brave-bin telegram-dektop discord localsend
+sudo pacman -S --noconfirm brave-bin telegram-desktop discord localsend
 
 echo "Instalado Software Multimedia"
 sudo pacman -S --noconfirm mpv loupe kdenlive decibels gpu-screen-recorder flameshot
