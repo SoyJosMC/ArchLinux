@@ -10,5 +10,5 @@ sudo ./Software.sh
 ./terminal.sh
 ./lazyvim-setup.sh
 
-cp -r ./icons ~/.icons
-cp -r ./themes ~/.themes
+echo "Si deseas Instalar Kde Plasma Minimo Ejecuta"
+echo "sudo chmod +x ./KdeInstallMinimal.sh && sudo ./KdeInstallMinimal.sh"

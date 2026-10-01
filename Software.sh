@@ -38,13 +38,13 @@ sudo pacman -S --noconfirm git nano nvim base-devel pipewire alsa-utils kitty fa
  starship curl flatpak gnome-disk-utility networkmanager bluez file-roller fuse
 
 echo "Instalando Software de Internet"
-sudo pacman -S --noconfirm brave-bin telegram-desktop discord localsend
+sudo pacman -S --noconfirm brave-bin signal-desktop discord localsend
 
 echo "Instalado Software Multimedia"
-sudo pacman -S --noconfirm mpv loupe kdenlive decibels gpu-screen-recorder flameshot
-
+sudo pacman -S --noconfirm mpv loupe decibels gpu-screen-recorder flameshot
+ge
 echo "Instalando Software de Desarrollo"
-sudo pacman -S --noconfirm vscodium python python-pip tk
+sudo pacman -S --noconfirm code python python-pip tk
 
 echo "Instalando Software de Oficina"
 sudo pacman -S --noconfirm onlyoffice 
